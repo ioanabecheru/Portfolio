@@ -175,8 +175,8 @@ body {
   background-image: url("../../images/bg-desktop.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top left, center 0;
-  background-attachment: fixed, fixed;
+  background-position: center 0;
+  background-attachment: fixed;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18pt;
   line-height: 1.75em;
@@ -188,8 +188,7 @@ body {
 }
 
 body.is-scroll {
-  background-attachment: scroll, scroll;
-  background-size: auto, 100% auto;
+  background-size: 100% auto;
 }
 
 body.is-preload *,
@@ -2288,10 +2287,10 @@ body.is-preload #header footer {
   /* Basic */
   body {
     background-color: #203936;
-    background-image: url("images/overlay.png"), url("../../images/bg-desktop.png");
-    background-repeat: repeat, no-repeat;
-    background-size: auto, 100% auto;
-    background-position: top left, top center;
+    background-image: url("../../images/bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top center;
     background-attachment: fixed;
     font-size: 14pt;
   }
